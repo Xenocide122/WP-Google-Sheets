@@ -7,7 +7,7 @@ require_once( get_stylesheet_directory() . '/libphp/google-api-php-client/vendor
 // Initialize the Google API client
 // Update the path to JSON key file
 $client = new Google_Client();
-$client->setAuthConfig(get_stylesheet_directory() . '/scripts/some-name-sujfr-45r893jrfioj.json'); // path to JSON key file
+$client->setAuthConfig(get_stylesheet_directory() . '/scripts/key-file.json'); // path to JSON key file
 $client->setScopes([Google_Service_Sheets::SPREADSHEETS]);
 
 // Create a Google Sheets service
